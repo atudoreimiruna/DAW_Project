@@ -1,0 +1,28 @@
+<div class="container">
+    <h1>
+      Subscription
+    </h1>
+  
+  <!--  <p [ngStyle]="isEditable ? {color: 'red'} : {color: 'blue'}">Details:</p>-->
+  
+    <form [formGroup]="newsletterForm" class="newsletter-form">
+        <mat-form-field appearance="outline">
+            <mat-label> Email</mat-label>
+                <input matInput placeholder="Email" formControlName="email">
+        </mat-form-field>
+
+        <!-- <textarea  rows="5" minlength="8" maxlength="100" placeholder="Write your valuable feedback" required> </textarea> -->
+    </form>
+
+    <div class="actions">
+        <div class="button-wrapper" (click)="closeDialog()" appBtnHover>
+            Cancel
+        </div>
+        
+        <div class="button-wrapper" (click)="saveSubscriber()" appBtnHover>
+            Save
+        </div>
+    </div>
+
+  </div>
+  

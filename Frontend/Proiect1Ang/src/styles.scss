@@ -1,0 +1,90 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    // color: rgb(255, 255, 255);
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("https://c1.wallpaperflare.com/preview/946/194/376/graffiti-background-grunge-street-art.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.site-name {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+   // font-family: "Booter - Zero Zero";
+   // font-weight: normal;
+    color: white;
+}
+
+
+.main-footer {
+
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("https://c1.wallpaperflare.com/preview/946/194/376/graffiti-background-grunge-street-art.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    //background-color: #56CCF2;
+    color: white;
+    //padding: .25em 0;
+}
+
+// .main-footer-container {
+//     //display: flex;
+//     //align-items: center;
+// }
+
+
+.footer-name{
+    text-align: center;
+   
+}
+

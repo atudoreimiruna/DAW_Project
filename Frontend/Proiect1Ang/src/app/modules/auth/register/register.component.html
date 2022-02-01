@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="form-section">
+        <h1 class="title">
+            Sign up
+        </h1>
+        <p>Create a new account!</p>
+
+        <form [formGroup]="registerForm" class="designer-form">
+            <mat-form-field appearance="outline">
+                <mat-label>First Name</mat-label>
+                    <input matInput placeholder="FirstName" formControlName="firstname">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Last Name</mat-label>
+                    <input matInput placeholder="LastName" formControlName="lastname">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Username</mat-label>
+                    <input matInput placeholder="Username" formControlName="username">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Password</mat-label>
+                    <input matInput type="password" placeholder="Password" formControlName="password">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Confirm Password</mat-label>
+                    <input matInput type="ConfirmPassword" placeholder="Password" formControlName="confirmpassword">
+            </mat-form-field>
+        </form>
+
+        <!-- <button mat-raised-button (click)="login()" class="demo-button">
+            Login
+        </button> -->
+        
+        <!-- <section class="example-section">
+            <mat-checkbox class="example-margin">By clicking, you agree to the Terms and Privacy Policy!</mat-checkbox>
+            <mat-checkbox class="example-margin" [disabled]="true">Disabled</mat-checkbox>
+        </section> -->
+        
+        <button mat-raised-button (click)="register()" class="demo-button">
+            Register
+        </button>
+        
+    </div>
+
+    <!--
+    <div class="background-section"> 
+        <p>
+            {{message}}
+        </p>
+    </div>
+    -->
+    
+</div>
+

@@ -1,0 +1,41 @@
+<div class="container">
+    <h1 class="title" appDrtv2>
+      Collections
+    </h1>
+    <table mat-table [dataSource]="collections" class="mat-elevation-z8 table">
+    
+      <!-- Id Column -->
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef> Id. </th>
+        <td mat-cell *matCellDef="let element"> {{ element.id }} </td>
+      </ng-container>
+    
+      <!-- Name Column -->
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Collection Name </th>
+        <td mat-cell *matCellDef="let element"> {{ element.name }} </td>
+      </ng-container>
+    
+      <!-- NumberOfItems Column -->
+      <ng-container matColumnDef="numberofitems">
+        <th mat-header-cell *matHeaderCellDef> Number of Items </th>
+        <td mat-cell *matCellDef="let element"> {{ element.numberofitems }} </td>
+      </ng-container>
+      
+      <!-- ReleaseDate Column -->
+      <ng-container matColumnDef="releasedate">
+        <th mat-header-cell *matHeaderCellDef> Release Date</th>
+        <td mat-cell *matCellDef="let element"> {{ element.releasedate }} </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  
+    <div> 
+      <button mat-raised-button (click)="logout()" class="demo-button">
+        Logout
+    </button>
+
+    </div>
+  </div>

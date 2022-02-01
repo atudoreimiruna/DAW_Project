@@ -1,0 +1,15 @@
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\bin\Debug\net5.0\Proiect1.DAL.deps.json
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\bin\Debug\net5.0\Proiect1.DAL.runtimeconfig.json
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\bin\Debug\net5.0\Proiect1.DAL.runtimeconfig.dev.json
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\bin\Debug\net5.0\Proiect1.DAL.dll
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\bin\Debug\net5.0\ref\Proiect1.DAL.dll
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\bin\Debug\net5.0\Proiect1.DAL.pdb
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\obj\Debug\net5.0\Proiect1.DAL.csproj.AssemblyReference.cache
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\obj\Debug\net5.0\Proiect1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\obj\Debug\net5.0\Proiect1.DAL.AssemblyInfoInputs.cache
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\obj\Debug\net5.0\Proiect1.DAL.AssemblyInfo.cs
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\obj\Debug\net5.0\Proiect1.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\obj\Debug\net5.0\Proiect1.DAL.dll
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\obj\Debug\net5.0\ref\Proiect1.DAL.dll
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\obj\Debug\net5.0\Proiect1.DAL.pdb
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\Proiect1.DAL\obj\Debug\net5.0\Proiect1.DAL.genruntimeconfig.cache

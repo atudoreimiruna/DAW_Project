@@ -1,0 +1,42 @@
+<div class="container">
+    <h1 class="title">
+      {{designer.name | profile}}
+    </h1>
+    <mat-card class="example-card">
+      <img mat-card-image
+           src="https://cdn3.iconfinder.com/data/icons/artistic-jobs-and-occupations/281/artist-006-512.png"
+           alt="profile-picture">
+      <mat-card-content class = "details">
+        <p>
+            Id: {{designer.id}}
+        </p>
+        <p>
+            Age: {{designer.age}}
+        </p>
+        <p>
+            Gender: {{designer.gender}}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <div>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <div class="topnav" id="myTopnav">
+                <a button (click)="getAllAwards(designer.id)"> Awards </a>
+                <a button (click)="getAllClients(designer.id)"> Clients </a>
+                <a button (click)="getAllCollections(designer.id)"> Collections </a> 
+            </div>
+        </div>
+        
+        <div>
+            <button mat-button class = "love-button">
+              <mat-icon>favorite</mat-icon>
+            </button>
+            
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  

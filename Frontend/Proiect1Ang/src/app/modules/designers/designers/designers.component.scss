@@ -1,0 +1,44 @@
+.container {
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  //background-color: rgb(236, 238, 243);
+  //background-image: url('background1.jpg');
+  //background-size: 90% 90%;
+
+  .title {
+    margin-top: 50px;
+    font-size: 28px;
+    //font-weight: bold;
+    color: rgb(79, 77, 80);
+    margin-bottom: 30px;
+  }
+
+  .table {
+    width: 50%;
+    height: auto;
+    
+    background-color: rgb(197, 201, 236);
+    font-weight: bold;
+    font-size: 28px;
+
+    .delete-action, .see-profile {
+      cursor: pointer;
+    }
+  }
+
+  .demo-button {
+    margin-top: 40px;
+    background-color: rgb(197, 201, 236);
+    font-weight: bold;
+  }
+
+  .demo-button:hover{
+    color:rgb(17, 0, 255);
+  }
+}
+

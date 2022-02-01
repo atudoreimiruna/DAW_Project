@@ -1,0 +1,36 @@
+<div class="container">
+    <h1>
+      Let your feedback here!
+    </h1>
+  
+  <!--  <p [ngStyle]="isEditable ? {color: 'red'} : {color: 'blue'}">Details:</p>-->
+  
+    <form [formGroup]="feedbackForm" class="feedback-form">
+        <mat-form-field appearance="outline">
+            <mat-label> Name</mat-label>
+                <input matInput placeholder="Name" formControlName="name">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Write your valuable feedback</mat-label>
+            <textarea matInput placeholder="Message" formControlName="message"></textarea>
+        </mat-form-field>
+        
+        <!-- <textarea  rows="5" minlength="8" maxlength="100" placeholder="Write your valuable feedback" required>
+            <input matInput placeholder="Message" formControlName="message">    
+        </textarea>  -->
+
+    </form>
+
+    <div class="actions">
+        <div class="button-wrapper" (click)="closeDialog()" appBtnHover>
+            Cancel
+        </div>
+        
+        <div class="button-wrapper" (click)="saveFeedback()" appBtnHover>
+            Save
+        </div>
+    </div>
+
+  </div>
+  

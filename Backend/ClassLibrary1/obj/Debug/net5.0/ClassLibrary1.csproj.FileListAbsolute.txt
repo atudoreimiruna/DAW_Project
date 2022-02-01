@@ -1,0 +1,15 @@
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\bin\Debug\net5.0\ClassLibrary1.deps.json
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\bin\Debug\net5.0\ClassLibrary1.runtimeconfig.json
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\bin\Debug\net5.0\ClassLibrary1.runtimeconfig.dev.json
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\bin\Debug\net5.0\ClassLibrary1.dll
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\bin\Debug\net5.0\ref\ClassLibrary1.dll
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\bin\Debug\net5.0\ClassLibrary1.pdb
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.csproj.AssemblyReference.cache
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.AssemblyInfoInputs.cache
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.AssemblyInfo.cs
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.dll
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\obj\Debug\net5.0\ref\ClassLibrary1.dll
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.pdb
+C:\Users\Amalia-Alexandra\source\repos\Proiect1\ClassLibrary1\obj\Debug\net5.0\ClassLibrary1.genruntimeconfig.cache
