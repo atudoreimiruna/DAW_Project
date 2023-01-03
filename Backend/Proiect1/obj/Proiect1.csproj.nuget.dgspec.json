@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1\\Proiect1.csproj": {}
+    "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1\\Proiect1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.BLL\\Proiect1.BLL.csproj": {
+    "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.BLL\\Proiect1.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.BLL\\Proiect1.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.BLL\\Proiect1.BLL.csproj",
         "projectName": "Proiect1.BLL",
-        "projectPath": "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.BLL\\Proiect1.BLL.csproj",
-        "packagesPath": "C:\\Users\\Amalia-Alexandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.BLL\\obj\\",
+        "projectPath": "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.BLL\\Proiect1.BLL.csproj",
+        "packagesPath": "C:\\Users\\atudo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.BLL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Amalia-Alexandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\atudo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.DAL\\Proiect1.DAL.csproj": {
-                "projectPath": "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.DAL\\Proiect1.DAL.csproj"
+              "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.DAL\\Proiect1.DAL.csproj": {
+                "projectPath": "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.DAL\\Proiect1.DAL.csproj"
               }
             }
           }
@@ -58,7 +54,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.17, )"
             }
           },
           "imports": [
@@ -67,34 +63,45 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.DAL\\Proiect1.DAL.csproj": {
+    "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.DAL\\Proiect1.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.DAL\\Proiect1.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.DAL\\Proiect1.DAL.csproj",
         "projectName": "Proiect1.DAL",
-        "projectPath": "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.DAL\\Proiect1.DAL.csproj",
-        "packagesPath": "C:\\Users\\Amalia-Alexandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.DAL\\obj\\",
+        "projectPath": "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.DAL\\Proiect1.DAL.csproj",
+        "packagesPath": "C:\\Users\\atudo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Amalia-Alexandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\atudo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -138,11 +145,11 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -152,7 +159,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.17, )"
             }
           },
           "imports": [
@@ -161,34 +168,45 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1\\Proiect1.csproj": {
+    "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1\\Proiect1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1\\Proiect1.csproj",
+        "projectUniqueName": "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1\\Proiect1.csproj",
         "projectName": "Proiect1",
-        "projectPath": "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1\\Proiect1.csproj",
-        "packagesPath": "C:\\Users\\Amalia-Alexandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1\\obj\\",
+        "projectPath": "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1\\Proiect1.csproj",
+        "packagesPath": "C:\\Users\\atudo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Amalia-Alexandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\atudo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -202,11 +220,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.BLL\\Proiect1.BLL.csproj": {
-                "projectPath": "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.BLL\\Proiect1.BLL.csproj"
+              "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.BLL\\Proiect1.BLL.csproj": {
+                "projectPath": "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.BLL\\Proiect1.BLL.csproj"
               },
-              "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.DAL\\Proiect1.DAL.csproj": {
-                "projectPath": "C:\\Users\\Amalia-Alexandra\\source\\repos\\Proiect1\\Proiect1.DAL\\Proiect1.DAL.csproj"
+              "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.DAL\\Proiect1.DAL.csproj": {
+                "projectPath": "C:\\Users\\atudo\\OneDrive\\Documente\\GitHub\\DAW_Project\\Backend\\Proiect1.DAL\\Proiect1.DAL.csproj"
               }
             }
           }
@@ -223,7 +241,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -231,29 +249,29 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.17, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -270,10 +288,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -282,7 +319,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
