@@ -1,14 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Proiect1.BLL.Helpers;
 using Proiect1.BLL.Interfaces;
 using Proiect1.DAL.Entities;
-//using Microsoft.AspNetCore.Identity;
-//using Proiect1.BLL.Interfaces;
 using Proiect1.BLL.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Proiect1.BLL.Managers
@@ -57,8 +50,6 @@ namespace Proiect1.BLL.Managers
             return null;
         }*/
 
-
-        
         public async Task<LoginResult> Login(LoginModel loginModel)
         {
             var user = await _userManager.FindByEmailAsync(loginModel.Email);
@@ -93,8 +84,6 @@ namespace Proiect1.BLL.Managers
             }
             
         }
-
-        
 
         public async Task<bool> Register(RegisterModel registerModel)
         {

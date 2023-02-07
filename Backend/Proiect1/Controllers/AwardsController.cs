@@ -1,12 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Proiect1.DAL;
 using Proiect1.DAL.Entities;
 using Proiect1.DAL.Models;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -25,7 +21,7 @@ namespace Proiect1.Controllers
 
         // Post 
         [HttpPost]
-        [Authorize("Admin")]
+        // [Authorize("Admin")]
         public async Task<IActionResult> CreateAward(AwardPostModel model)
         {
             if (string.IsNullOrEmpty(model.Name))
@@ -87,7 +83,7 @@ namespace Proiect1.Controllers
 
         // Put - update la numele unui premiu
         [HttpPut]
-        [Authorize("Admin")]
+        //[Authorize("Admin")]
         public async Task<IActionResult> Update([FromQuery] int id, [FromQuery] string name)
         {
             var award = await _context.DesignerAwards.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
@@ -105,7 +101,7 @@ namespace Proiect1.Controllers
 
         // Delete - Stergem premiile luate la un anumit concurs
         [HttpDelete]
-        [Authorize("Admin")]
+        //[Authorize("Admin")]
         public async Task<IActionResult> DeleteAward([FromQuery] string nume)
         {
             var awards= await _context

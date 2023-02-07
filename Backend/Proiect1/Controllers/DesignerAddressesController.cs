@@ -1,11 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Proiect1.DAL;
 using Proiect1.DAL.Entities;
 using Proiect1.DAL.Models;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -25,7 +22,7 @@ namespace Proiect1.Controllers
 
         // Post
         [HttpPost]
-        [Authorize("Admin")]
+        // [Authorize("Admin")]
         public async Task<IActionResult> CreateDesigner(DesignerAddressPostModel model)
         {
             if (string.IsNullOrEmpty(model.City))
@@ -62,7 +59,7 @@ namespace Proiect1.Controllers
 
         // Put - facem update la zipcode
         [HttpPut]
-        [Authorize("Admin")]
+        // [Authorize("Admin")]
         public async Task<IActionResult> Update([FromQuery] int id, [FromQuery] int zipcode)
         {
             var address = await _context.DesignerAddresses.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
@@ -82,7 +79,7 @@ namespace Proiect1.Controllers
 
         // Delete - stergem adresele designerilor care au peste 50 de ani
         [HttpDelete]
-        [Authorize("Admin")]
+        // [Authorize("Admin")]
         public async Task<IActionResult> DeleteAddress()
         {
             var addresses = await _context

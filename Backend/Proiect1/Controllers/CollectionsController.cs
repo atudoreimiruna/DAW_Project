@@ -1,11 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Proiect1.DAL;
 using Proiect1.DAL.Entities;
 using Proiect1.DAL.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -25,7 +22,7 @@ namespace Proiect1.Controllers
         }
 
         [HttpPost]
-        [Authorize("Admin")]
+        // [Authorize("Admin")]
         public async Task<IActionResult> CreateCollection(CollectionPostModel model)
         {
             if (string.IsNullOrEmpty(model.CollectionName))
@@ -57,7 +54,6 @@ namespace Proiect1.Controllers
             return Ok(collections);
         }
 
-        
         // Get by Id
         [HttpGet("byId/{id}")]
         public async Task<IActionResult> GetCollections([FromRoute] int id) // id ul este pt designer
@@ -71,12 +67,9 @@ namespace Proiect1.Controllers
             return Ok(collections);
         }
 
-        
-
-
         // Update - facem update la numele unei colectii
         [HttpPut] 
-        [Authorize("Admin")]
+        // [Authorize("Admin")]
         public async Task<IActionResult> Update([FromQuery] int id, [FromQuery] string nume)
         {
             var collection = await _context
@@ -99,7 +92,7 @@ namespace Proiect1.Controllers
 
         //Delete - stergem colectiile cu nr maxim de item-uri 
         [HttpDelete]
-        [Authorize("Admin")]
+        // [Authorize("Admin")]
         public async Task<IActionResult> DeleteCollection()
         {
             var maxx = _context.Collections.Max(x => x.NumberOfItems);

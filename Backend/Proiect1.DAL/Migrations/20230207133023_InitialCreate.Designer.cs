@@ -10,7 +10,7 @@ using Proiect1.DAL;
 namespace Proiect1.DAL.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230103095616_InitialCreate")]
+    [Migration("20230207133023_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

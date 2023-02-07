@@ -1,15 +1,10 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Proiect1.DAL;
 using Proiect1.DAL.Entities;
 using Proiect1.DAL.Models;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
 
 namespace Proiect1.Controllers
 {
@@ -71,7 +66,7 @@ namespace Proiect1.Controllers
 
         // Put - facem update la numele unui designer
         [HttpPut]
-       // [Authorize("Admin")]
+        // [Authorize("Admin")]
         public async Task<IActionResult> Update([FromQuery] int id, [FromQuery] string name)
         {
             var designer = await _context.Designers.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);

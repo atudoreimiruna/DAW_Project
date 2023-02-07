@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Proiect1.DAL.Entities
+﻿namespace Proiect1.DAL.Entities
 {
     public class CollectionFactory
     {

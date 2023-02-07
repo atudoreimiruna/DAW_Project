@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using Proiect1.DAL.Configuration;
 using Proiect1.DAL.Configurations;
 using Proiect1.DAL.Entities;

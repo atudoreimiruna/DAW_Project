@@ -1,10 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Proiect1.DAL;
 using Proiect1.DAL.Entities;
 using Proiect1.DAL.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -24,7 +22,7 @@ namespace Proiect1.Controllers
 
         // Post - adaugam un client nou
         [HttpPost]
-        [Authorize("Admin")]
+        // [Authorize("Admin")]
         public async Task<IActionResult> CreateDesigner(ClientPostModel model)
         {
             if (string.IsNullOrEmpty(model.Name))
@@ -76,7 +74,7 @@ namespace Proiect1.Controllers
 
         // Put - facem update la numarul de telefon al unui client identificat dupa id
         [HttpPut] 
-        [Authorize("Admin")]
+        // [Authorize("Admin")]
         public async Task<IActionResult> Update([FromQuery] int id, [FromQuery] string phone)
         { 
             var client = await _context.Clients.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
@@ -95,7 +93,7 @@ namespace Proiect1.Controllers
 
         // Delete - stergem clientii cu un nume dat ca parametru
         [HttpDelete]
-        [Authorize("Admin")]
+        // [Authorize("Admin")]
         public async Task<IActionResult> DeleteClient(int id)
         {
             var client = await _context.Clients.FirstOrDefaultAsync(x => x.Id == id);
